@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import subprocess
 import winreg as reg
 import sys
@@ -146,4 +145,3 @@ if __name__ == '__main__':
    app = QApplication(sys.argv)
    ex = MyApp()
    sys.exit(app.exec_())
->>>>>>> 286a63bdc0cb5cc895a9a226dbe07df5bd54ea5f
