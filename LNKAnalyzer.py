@@ -55,18 +55,15 @@ while True:
 
   if (command == "가"):
     print_subkeys(key, sub_key)
-    print("\n")
   elif (command == "나"):
     lnkname = input("LNK name : ")
     lnkpath = input("LNK of : \n")
     createLNK(lnkname, lnkpath)
     print("Processed Successfully!")
-    print("\n")
   elif (command == "다"):
     print("exit")
     break
   else:
     print("check your command")
-    print("\n")
 
 # print_subkeys(key, sub_key)
